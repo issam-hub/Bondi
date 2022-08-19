@@ -45,7 +45,7 @@
 
 ![smile](https://i.kym-cdn.com/photos/images/masonry/002/069/848/829.jpg)
 
--   but in my opinion i don't like much because it has limited components and gives only the standards of the current web design or so, and that will limiting the creativity and innovation a bet, so next time or so inchallah will do something with tailwind and see what's what
+-   but in my opinion i don't like it much because it has limited components and gives only the standards of the current web design or so, and that will limiting the creativity and innovation a bet, so next time or so inchallah will do something with tailwind and see what's what
 
 ![angry](https://i.kym-cdn.com/photos/images/masonry/002/069/850/076.jpg)
 
