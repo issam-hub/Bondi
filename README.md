@@ -4,7 +4,6 @@
 
 -   [Overview](#overview)
     -   [The Challenge](#the-challenge)
-    -   [Screenchots](#screenchots)
     -   [Live Demo](#live-demo)
 -   [My Process](#my-process)
     -   [Built With](#built-with)
@@ -17,14 +16,6 @@
 
 -   a responsive layout that everybody could use it comfortably, in any device (not the fridge ofc)
 -   a good looking ui (even it's not mine) that everybody could look out and be amazed about it
-
-### Screenchots
-
-![screenshot1](./imgs/screenshot.png)
-
-![screenshot2](./imgs/screenshot2.png)
-
-![screenshot3](./imgs/screenshot3.png)
 
 ### Live Demo
 
