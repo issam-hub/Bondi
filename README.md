@@ -45,7 +45,7 @@
 
 -   bootstrap, it's amazing framework that saves me a lot of time, specially in the responsive stuff
 
-![angry](https://ih1.redbubble.net/image.2329060851.8718/raf,128x128,075,f,101010:01c5ca27c6.jpg)
+![angry](https://i.kym-cdn.com/photos/images/masonry/002/069/850/076.jpg)
 
 -   but i my opinion i don't like much because it has limited components and gives only the standards of the current web design or so, and that will limiting the creativity and innovation a bet, so next time or so inchallah will do something with tailwind and see what's what
 
