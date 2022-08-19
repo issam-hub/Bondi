@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bondi</title>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <link rel="stylesheet" href="CSS/all.min.css" />
+        <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.svg" alt="logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#main"
+                    aria-controls="main"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fa-solid fa-bars menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="main">
+                    <ul
+                        class="navbar-nav ms-auto mb-2 mb-lg-0 text-center text-lg-start"
+                    >
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active p-2 p-lg-3"
+                                aria-current="page"
+                                href="#home"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#sevices"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#about"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link p-2 p-lg-3 pe-lg-4"
+                                href="#contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <div class="search ps-4 pe-4 d-none d-lg-block">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            fill="currentColor"
+                            class="bi bi-search"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                            />
+                        </svg>
+                    </div>
+                    <div class="login text-center m-auto m-lg-0">
+                        <a href="#login">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Start Landing -->
+        <div
+            class="landing d-flex flex-column justify-content-center align-items-center"
+        >
+            <div class="container text-center">
+                <h1>Taste the Creativity</h1>
+                <p>We make awesome graphic and web design</p>
+                <div class="button text-center mx-auto">
+                    <a href="#getStarted">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <!-- Start Features -->
+        <div class="features pt-5">
+            <div class="cool-heading text-center m-auto">
+                <img src="imgs/title.svg" alt="" />
+                <h2 class="fs-2">We are Good at</h2>
+                <p>some of thease stuff under</p>
+            </div>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="feature col-md-6 col-lg-4 text-center">
+                        <div class="icons position-relative">
+                            <i class="num fa-solid fa-1">1</i>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-pencil"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"
+                                />
+                            </svg>
+                        </div>
+                        <h4 class="py-3 text-uppercase">graphic design</h4>
+                        <p class="lh-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Quas dolores asperiores consequatur architecto
+                            ipsam saepe magni in
+                        </p>
+                    </div>
+                    <div class="feature col-md-6 col-lg-4 text-center">
+                        <div class="icons position-relative">
+                            <i class="num fa-solid fa-2">2</i>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-tv"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"
+                                />
+                            </svg>
+                        </div>
+                        <h4 class="py-3 text-uppercase">web design</h4>
+                        <p class="lh-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Quas dolores asperiores consequatur architecto
+                            ipsam saepe magni in
+                        </p>
+                    </div>
+                    <div class="feature col-md-6 col-lg-4 text-center">
+                        <div class="icons position-relative">
+                            <i class="num fa-solid fa-3">3</i>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-plug"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M6 0a.5.5 0 0 1 .5.5V3h3V.5a.5.5 0 0 1 1 0V3h1a.5.5 0 0 1 .5.5v3A3.5 3.5 0 0 1 8.5 10c-.002.434-.01.845-.04 1.22-.041.514-.126 1.003-.317 1.424a2.083 2.083 0 0 1-.97 1.028C6.725 13.9 6.169 14 5.5 14c-.998 0-1.61.33-1.974.718A1.922 1.922 0 0 0 3 16H2c0-.616.232-1.367.797-1.968C3.374 13.42 4.261 13 5.5 13c.581 0 .962-.088 1.218-.219.241-.123.4-.3.514-.55.121-.266.193-.621.23-1.09.027-.34.035-.718.037-1.141A3.5 3.5 0 0 1 4 6.5v-3a.5.5 0 0 1 .5-.5h1V.5A.5.5 0 0 1 6 0zM5 4v2.5A2.5 2.5 0 0 0 7.5 9h1A2.5 2.5 0 0 0 11 6.5V4H5z"
+                                />
+                            </svg>
+                        </div>
+                        <h4 class="py-3 text-uppercase">app design</h4>
+                        <p class="lh-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Quas dolores asperiores consequatur architecto
+                            ipsam saepe magni in
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Portfolio -->
+        <div class="portfolio py-5">
+            <div class="cool-heading text-center m-auto">
+                <img src="imgs/title.svg" alt="" />
+                <h2 class="fs-2">We Make This</h2>
+                <p>prepare to be amazed</p>
+            </div>
+            <div class="container">
+                <ul
+                    class="nav justify-content-between pt-5 px-sm-4 px-md-5 px-lg-0 col-lg-6 m-auto"
+                >
+                    <li class="nav-item active">
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="#all"
+                            >All</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#design">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photography">Photography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apps">Apps</a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 design-work">
+                        <div class="box">
+                            <img
+                                src="imgs/design1.svg"
+                                alt="design1"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 apps-work">
+                        <div class="box">
+                            <img
+                                src="imgs/app1.svg"
+                                alt="app1"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Apps</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 code-work">
+                        <div class="box">
+                            <img
+                                src="imgs/code1.svg"
+                                alt="code1"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 photography-work">
+                        <div class="box">
+                            <img
+                                src="imgs/pg2.svg"
+                                alt="pg2"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 design-work">
+                        <div class="box">
+                            <img
+                                src="imgs/design2.svg"
+                                alt="design2"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 code-work">
+                        <div class="box">
+                            <img
+                                src="imgs/code2.svg"
+                                alt="code2"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 apps-work">
+                        <div class="box">
+                            <img
+                                src="imgs/app2.svg"
+                                alt="app2"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Apps</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 photography-work">
+                        <div class="box">
+                            <img
+                                src="imgs/pg1.svg"
+                                alt="pg1"
+                                class="img-fluid"
+                            />
+                            <div
+                                class="text d-flex flex-column justify-content-center align-items-center"
+                            >
+                                <h4>Awesome Work</h4>
+                                <p>/ Photography</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button mt-5 text-center text-uppercase m-auto fs-6">
+                    <a href="">i want more...</a>
+                </div>
+            </div>
+        </div>
+        <!-- Start About -->
+        <div class="about pt-5">
+            <div class="cool-heading text-center m-auto">
+                <img src="imgs/title.svg" alt="" />
+                <h2 class="fs-2">Some Stuff About Us</h2>
+                <p>the great team</p>
+            </div>
+            <p class="say text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio quia sapiente odit maxime dignissimos aperiam minus, amet
+                voluptatibus, quam nesciunt commodi
+            </p>
+            <div class="container">
+                <div
+                    class="row flex-column-reverse flex-lg-row align-items-center align-items-lg-baseline text-center text-lg-start"
+                >
+                    <div
+                        class="text col-10 col-sm-8 col-lg-4 align-self-center"
+                    >
+                        <h2 class="pb-2">Retina Design</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisic
+                            elit. Ut, ipsa corporis? Earum dolorem eius fuga
+                            doloremque dolor sit amet. <br />
+                            nemo laudantium officiis facere molestias nam fugit
+                            iusto voluptates accusamus saepe nesciunt,
+                            aspernatur quos voluptatum reprehenderit, temp
+                            obcaecati vel adipisci tenetur.
+                        </p>
+                        <div
+                            class="button text-center text-uppercase fs-6 m-auto m-lg-0"
+                        >
+                            <a href="#order">order me one</a>
+                        </div>
+                    </div>
+                    <div class="pic col-10 col-sm-8">
+                        <img
+                            src="imgs/laptop.svg"
+                            alt="laptop"
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Team -->
+        <div class="team">
+            <div class="text text-center">
+                <h3 class="pb-2">Meet the Team</h3>
+                <p class="m-auto pb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque, officiis ducimus velit nobis blanditiis eos dolores
+                    vel provident magni suscipit.
+                </p>
+            </div>
+            <div class="container pb-4">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                        <div class="box position-relative bg-white h-100">
+                            <div class="image position-relative">
+                                <img
+                                src="imgs/t1.svg"
+                                alt="team1"
+                                class="img-fluid"
+                                />
+                            </div>
+                            <p class="p-4 pb-0">
+                                "I don't understand how we got by those troops.
+                                I thought we were dead."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                        <div class="box position-relative bg-white h-100">
+                            <div class="image position-relative">
+                                <img
+                                src="imgs/t2.svg"
+                                alt="team2"
+                                class="img-fluid"
+                                />
+                            </div>
+                            <p class="p-4 pb-0">
+                                "Your clones are very impressive. You must be
+                                very proud."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                        <div class="box position-relative bg-white h-100">
+                            <div class="image position-relative">
+                                <img
+                                src="imgs/t3.svg"
+                                alt="team3"
+                                class="img-fluid"
+                                />
+                            </div>
+                            <p class="p-4 pb-0">
+                                "I don't know who you are or where you came
+                                from. but from now on you'll do as i tell you,
+                                okay?"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                        <div class="box position-relative bg-white h-100">
+                            <div class="image position-relative">
+                                <img
+                                src="imgs/t4.svg"
+                                alt="team4"
+                                class="img-fluid"
+                                />
+                            </div>
+                            <p class="p-4 pb-0">
+                                "Do not assume anything Obi-Wan. Clear your mind
+                                must be if you are to discover the real villains
+                                behind this pblt."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Clients -->
+        <div class="clients py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-1.svg" alt="tech1" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-2.svg" alt="tech2" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-3.svg" alt="tech3" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-4.svg" alt="tech4" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-1.svg" alt="tech1" />
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2 text-center">
+                        <img src="imgs/tech-2.svg" alt="tech2" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Envolving -->
+        <div class="envolving py-5">
+            <div class="container py-5">
+                <div class="text d-flex flex-column align-items-center">
+                    <h2 class="text-white">Start Your Project Now</h2>
+                    <p class="pt-3 pb-4 text-center">
+                        Leave your description and we start the engine. Don't
+                        worry you can cancel anytime
+                    </p>
+                    <div class="button text-center text-uppercase mt-2 fs-6">
+                        <a href="#starting">start Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Blog -->
+        <div class="blog py-5">
+            <div class="cool-heading text-center m-auto">
+                <img src="imgs/title.svg" alt="" />
+                <h2 class="fs-2">Read Our Blog</h2>
+                <p>new stories</p>
+            </div>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-6 col-md-4 ">
+                        <div class="box shadow-sm">
+                            <img
+                                src="imgs/blog1.svg"
+                                alt="blog1"
+                                class="img-fluid"
+                            />
+                            <div class="text p-3">
+                                <p>01-17-2022</p>
+                                <h5>
+                                    Addiction to Phones, Problem And Solutions
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box shadow-sm h-100">
+                            <img
+                                src="imgs/blog2.svg"
+                                alt="blog2"
+                                class="img-fluid"
+                            />
+                            <div class="text p-3">
+                                <p>03-09-2022</p>
+                                <h5>How Can Books Affect Your Brain ?</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4"">
+                        <div class="box shadow-sm">
+                            <img
+                                src="imgs/blog3.svg"
+                                alt="blog3"
+                                class="img-fluid"
+                            />
+                            <div class="text p-3">
+                                <p>07-25-2022</p>
+                                <h5>5 Habits Every Programmers Should Have</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button text-center m-auto mt-4 fs-6 text-uppercase">
+                    <a href="#more">more stories</a>
+                </div>
+            </div>
+        </div>
+        <!-- Start Subscribe -->
+        <div class="subscribe py-4">
+            <div class="container">
+                <div class="content d-flex justify-content-between align-items-center flex-column flex-lg-row">
+                    <p class="fw-bold cols-3">Subscribe to our Newsletter: </p>
+                    <input type="email" placeholder="Enter email Address" class="col-10 col-lg-6 p-2 m-4 m-lg-0">
+                    <div class="button text-center">
+                        <a href="#subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer -->
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row align-items-center align-items-lg-baseline text-center text-lg-start">
+                    <div class="col-lg-4">
+                        <img src="imgs/logo.svg" alt="logo">
+                        <p class="p1 pt-4 pb-4 lh-lg">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        <p class="p2 pt-4">Created by <span>Graphberry</span>, Belgrade, Serbia</p>
+                        <p class="p3">&copy; 2017-<span>Bondi.Inc</span></p>
+                    </div>
+                    <div class="links1 col-6 col-lg-2">
+                        <ul class="list-unstyled">
+                            <h6 class="text-white">Links</h6>
+                            <li class="py-2">Home</li>
+                            <li class="py-2">Our Services</li>
+                            <li class="py-2">Portfolio</li>
+                            <li class="py-2">Testimonises</li>
+                            <li class="py-2">Support</li>
+                            <li class="py-2">Terms and Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="links2 col-6 col-lg-2">
+                        <ul class="list-unstyled">
+                            <h6 class="text-white">About Us</h6>
+                            <li class="py-2">Sign In</li>
+                            <li class="py-2">Register</li>
+                            <li class="py-2">About Us</li>
+                            <li class="py-2">Blog</li>
+                            <li class="py-2">Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h6 class="text-white">Contact Us</h6>
+                        <p class="lh-lg">Get in touch with us via mail phone.We are waiting for 
+                            your call or message</p>
+                        <div class="button text-center fs-6 my-lg-5">
+                            <a href="#mailto">graphberry@gmail.com</a>
+                        </div>
+                        <div class="socials d-flex justify-content-between align-items-center text-white m-auto mt-4 m-lg-0">
+                            <i class="fa-brands fa-facebook-f py-2 rounded-circle"></i>
+                            <i class="fa-brands fa-twitter p-2 rounded-circle"></i>
+                            <i class="fa-brands fa-google-plus-g py-2 rounded-circle"></i>
+                            <i class="fa-brands fa-dribbble p-2 rounded-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Scroll To Top Button -->
+        <div class="scroll rounded-circle fs-3 fs-md-4">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <script src="js/code.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
