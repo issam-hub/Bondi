@@ -41,11 +41,11 @@
 
 ### What I Learned
 
-![smile](./)
+![smile](https://i.kym-cdn.com/photos/images/original/002/069/848/829.jpg)
 
 -   bootstrap, it's amazing framework that saves me a lot of time, specially in the responsive stuff
 
-![angry](./)
+![angry](https://static.wikia.nocookie.net/5f50ec07-8546-44dc-951d-b6d278c6cf98/scale-to-width/755)
 
 -   but i my opinion i don't like much because it has limited components and gives only the standards of the current web design or so, and that will limiting the creativity and innovation a bet, so next time or so inchallah will do something with tailwind and see what's what
 
