@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+::selection {
+    color: white;
+    background-color: $dark-color;
+}
+
+.cool-heading {
+    position: relative;
+    width: 250px;
+    padding-bottom: 1px;
+    img {
+        padding-bottom: 30px;
+    }
+    p {
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $grey-color;
+    }
+    &::after {
+        content: "";
+        height: 1px;
+        width: 140px;
+        background-color: $pre-green-color;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

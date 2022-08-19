@@ -1,0 +1,24 @@
+@mixin buttonize($width, $dimentions, $bradius, $bgcolor, $color, $hovercolor) {
+    width: $width;
+    padding-block: ($dimentions - 2) $dimentions;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: $bgcolor;
+    border: none;
+    border-radius: $bradius;
+    cursor: pointer;
+    a {
+        text-decoration: none;
+        color: $color;
+        transition: 0.3s;
+    }
+    &:hover a {
+        color: $hovercolor;
+    }
+}
+
+@mixin gap-it($gap, $breakpoint) {
+    @media (max-width: $breakpoint) {
+        row-gap: $gap;
+    }
+}
