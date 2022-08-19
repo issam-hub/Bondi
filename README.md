@@ -28,7 +28,7 @@
 
 ### Live Demo
 
--   => [Bondi landing page](#)
+-   => [Bondi landing page](https://issam-hub.github.io/Bondi/)
 
 ## My Process
 
