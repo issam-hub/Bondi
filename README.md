@@ -41,7 +41,7 @@
 
 ### What I Learned
 
-![smile](https://i.kym-cdn.com/photos/images/original/002/069/848/829.jpg)
+![smile](https://pbs.twimg.com/media/E0AiBrsWQAIFQ7k.jpg)
 
 -   bootstrap, it's amazing framework that saves me a lot of time, specially in the responsive stuff
 
